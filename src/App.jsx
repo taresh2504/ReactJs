@@ -35,12 +35,36 @@
 // export default App
 
 import React from "react";
+import Navbar from "./Navbar";
+import {Footer,Footer2} from "./Footer";
+import Homepage from "./Homepage";
 
 const App=()=>{
+
+  // javascript {} or return k beech m likhte h
+  let Taresh=()=>{
+    alert('hello i am taresh')
+  }
+
+  var age = parseInt(prompt('enter age:'))
+  if (age>=18){
+    alert('u can vate')
+  }
+  else{
+    alert("'can't vote")
+  }
   return(
     <div>
+      <Navbar/>
+      
       <h1>Hello Cybrom</h1>
       <p>of M.p nagar</p>
+      <button onClick={Taresh}>Click here</button>
+
+      <Homepage/>
+
+      <Footer/>
+      <Footer2/>
     </div>
   )
 }

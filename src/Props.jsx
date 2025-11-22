@@ -1,9 +1,26 @@
+import Child from "./Child"
+
 let App = ()=>{
+    let name = "Taresh Tandon"
+    let age = 22
+
+    var myinfo = {
+        name:'Sanjay Yadav',
+        age:23,
+        city:'Bhopal'
+    }
+
     return(
-        <div>
+        <>
             <h1>This is Props</h1>
-        </div>
+        {/* <Child myname='Taresh' age={20}/> */}
+        <Child myname={name} age={age}/>
+        <Child myname='Taresh' age={25}/>
+        <Child mydata={myinfo}/>
+        </>
     )
 }
+// React Fragment <></>
+// props full form properties iska kaam parent se child me data paas krna
 
 export default App

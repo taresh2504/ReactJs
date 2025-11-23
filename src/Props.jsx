@@ -24,3 +24,4 @@ let App = ()=>{
 // props full form properties iska kaam parent se child me data paas krna
 
 export default App
+

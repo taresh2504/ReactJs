@@ -1,4 +1,5 @@
 import React from 'react'
+import Props from './Props'
 
 const Child = (props) => {
 // const Child = ({myname,age}) => {    

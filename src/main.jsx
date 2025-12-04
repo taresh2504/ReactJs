@@ -2,16 +2,20 @@
 import { createRoot } from 'react-dom/client'
 // import './index.css'
 // import App from './App.jsx'
-import App from './Hook.jsx'
+// import App from './Hook.jsx'
 // import Router from './Router.jsx'
 // import Props from './Props.jsx'
+// import App from './color.jsx'
+// import App from './count.jsx'
+import Form from './Form.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   <BrowserRouter>
-    <App />
+    {/* <App /> */}
+    <Form/>
     {/* <Props/> */}
   </BrowserRouter>  
   // </StrictMode>,

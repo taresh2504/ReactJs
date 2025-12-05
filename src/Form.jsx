@@ -15,6 +15,7 @@ export const Form = () => {
     <form action="" onSubmit={Handlesubmit}>
         enter name : <input type="text" onChange={(e)=>{setname(e.target.value)}} />
         enter email : <input type="text" name="" id="" onChange={(e)=>{setemail(e.target.value)}}/>
+        enter number : <input type="text" name='number' value={form.number} onChange={Handlesubmit}  />
         <button type='submit'>save data</button>
     </form>
     </>

@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
+import { Navigate, useNavigate } from 'react-router-dom'
 
 export const Form = () => {
-    let [name,setname]=useState('')
-    let [email,setemail]=useState('')
+    // let [name,setname]=useState('')
+    // let [email,setemail]=useState('')
+
+    let navigate = useNavigate()
 
     let Handlesubmit=(e)=>{
         e.preventDefault() //stops the form reloading
@@ -17,6 +20,8 @@ export const Form = () => {
         enter email : <input type="text" name="" id="" onChange={(e)=>{setemail(e.target.value)}}/>
         enter number : <input type="text" name='number' value={form.number} onChange={Handlesubmit}  />
         <button type='submit'>save data</button>
+
+        Navigate('/login')
     </form>
     </>
   )

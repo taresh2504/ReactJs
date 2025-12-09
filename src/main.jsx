@@ -10,6 +10,8 @@ import { createRoot } from 'react-dom/client'
 // import Form from './Form.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import Formvalidation from './Formvalidation.jsx'
+// import Navbar from './Navbarproject.jsx'
+import { Map } from './Map.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -17,8 +19,10 @@ createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     {/* <App /> */}
     {/* <Form/> */}
-    <Formvalidation/>
+    {/* <Formvalidation/> */}
     {/* <Props/> */}
+    {/* <Navbar/> */}
+    <Map/>
   </BrowserRouter>  
   // </StrictMode>,
 )

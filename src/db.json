@@ -1,0 +1,35 @@
+{
+    "movie":[
+        {
+            "name":"Taresh",
+            "aadharno":123456789,
+            "city":"Bhopal",
+            "checkin":"15-12-2025",
+            "checkout":"18-12-2025",
+            "people":2,
+            "Total":1000
+        },
+        {
+            "name":"Lakhan lavdi",
+            "aadharno":789456789,
+            "city":"North korea",
+            "checkin":"17-12-2025",
+            "checkout":"20-12-2025",
+            "people":4,
+            "Total":2000
+        },
+        {
+            "name":"Sid",
+            "aadharno":159056789,
+            "city":"Pakistan",
+            "checkin":"21-12-2025",
+            "checkout":"25-12-2025",
+            "people":3,
+            "Total":1500
+        }
+
+
+
+
+    ]
+}

@@ -12,7 +12,7 @@ import { BrowserRouter } from 'react-router-dom'
 import Formvalidation from './Formvalidation.jsx'
 import Navbar from './Navbarproject.jsx'
 // import { Map } from './Map.jsx'
-import App from './tailwind.jsx'
+// import App from './tailwind.jsx'
 
 
 
@@ -24,9 +24,9 @@ createRoot(document.getElementById('root')).render(
     {/* <Form/> */}
     {/* <Formvalidation/> */}
     {/* <Props/> */}
-    {/* <Navbar/> */}
+    <Navbar/>
     {/* <Map/> */}
-    <App/>
+    {/* <App/> */}
   </BrowserRouter>  
   // </StrictMode>,
 )

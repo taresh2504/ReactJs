@@ -18,13 +18,13 @@ let App = ()=>{
         <>
             <h1>This is Props</h1>
         {/* <Child myname='Taresh' age={20}/> */}
-        {/* <Child myname={name} age={age}/>
+        {/* <Child myname={name} age={age}/> */}
         <Child myname='Taresh' age={25}/>
-        <Child mydata={myinfo}/> */}
-        <h1 className="zero">0</h1>
+        {/* <Child mydata={myinfo}/> */}
+        {/* <h1 className="zero">0</h1>
         <button onClick={add}>+</button>
         <button onClick={subtract}>-</button>
-        <button onClick={reset}>reset</button>
+        <button onClick={reset}>reset</button> */}
         </>
     )
 }
@@ -32,5 +32,7 @@ let App = ()=>{
 // props full form properties iska kaam parent se child me data paas krna
 
 export default App
+
+
 
 

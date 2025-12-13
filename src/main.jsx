@@ -13,10 +13,9 @@ import { BrowserRouter } from 'react-router-dom'
 // import Navbar from './Navbarproject.jsx'
 // import { Map } from './Map.jsx'
 // import App from './tailwind.jsx'
-import { Useeffect } from './Useeffect'
+// import { Useeffect } from './Useeffect'
 import { Datashow } from './Datashow'
-
-
+// import { App } from './Project.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -29,7 +28,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Navbar/> */}
     {/* <Map/> */}
     {/* <App/> */}
-    <Useeffect/>
+    {/* <Useeffect/> */}
+    <Datashow/>
   </BrowserRouter>  
   // </StrictMode>,
 )
